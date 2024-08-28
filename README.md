@@ -54,7 +54,7 @@ docker ps -a
 
 # [Explorer'den](https://node.nesa.ai/) Miner aktif olup olmadığını kontrol edelim `Peer ID'miz` sayesinde
 ```console
-cat ~/.nesa/identity/peer_id.id
+cat ~/.nesa/identity/node_id.id
 ```
 
 # İŞLEMLERİMİZ BU KADAR İYİ ŞANSLAR. AŞAĞIYA DA NESA EKİBİNİN KURULUM GİF'İNİ BIRAKIYORUM.
