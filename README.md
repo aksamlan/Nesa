@@ -43,7 +43,7 @@ sudo ufw allow 31333
 bash <(curl -s https://raw.githubusercontent.com/nesaorg/bootstrap/master/bootstrap.sh)
 ```
 # Sırasıyla aşağıdaki adımlarla ilerleyelim.
-- `Wizardy` > `Kendine isim belirle` > `ENTER` > `ENTER` > `Miner` > `Cüzdan Kelimeleri` > `NON-Distributed Miner` > `ister ENTER de mevcut model ile devam et istersen HugginFace'den model ismi gir` > `Huggingface TOKEN key gir` > `YES`
+- `Wizardy` > `Kendine isim belirle` > `ENTER` > `ENTER` > `Miner` > `Cüzdan Private Key` > `NON-Distributed Miner` > `ister ENTER de mevcut model ile devam et istersen HugginFace'den model ismi gir` > `Huggingface TOKEN key gir` > `YES`
 - Model girdiğinizde HugginFace'de ismini bulup lisansı kabul etmeniz gerekiyor.
 
 # Miner'i kontrol edelim aşağıdaki gibi olmalı
