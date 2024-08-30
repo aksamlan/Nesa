@@ -59,3 +59,28 @@ cat ~/.nesa/identity/node_id.id
 
 # İŞLEMLERİMİZ BU KADAR İYİ ŞANSLAR. AŞAĞIYA DA NESA EKİBİNİN KURULUM GİF'İNİ BIRAKIYORUM.
 ![gif](https://raw.githubusercontent.com/nesaorg/bootstrap/master/images/bootstrap.gif)
+
+
+# NESA SİLMEK İÇİN TAKİP EDİNİZ.
+```console
+sudo docker stop orchestrator
+sudo docker stop ipfs_node
+```
+```console
+sudo docker rm orchestrator
+sudo docker rm ipfs_node
+```
+```console
+sudo docker images
+```
+```console
+sudo docker rmi ghcr.io/nesaorg/orchestrator:devnet-latest
+sudo docker rmi ipfs/kubo:latest
+```
+```console
+sudo docker image prune -a
+```
+### Sunucudaki tüm exited durumundaki containerları silmek için
+```console
+sudo docker container prune
+```
